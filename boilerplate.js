@@ -23,7 +23,7 @@ function Input(input) {
 
 var run = function(input) {
   input = new Input(input);
-  var T = input.readInt();
+  var T = parseInt(input.readLine(), 10);
 
   var output = '';
 
